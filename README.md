@@ -1,17 +1,17 @@
+## Thinking in Java (Java 编程思想)
 
-##Thinking in Java (Java 编程思想)
+原书：[Thinking in Java 4th Edition](http://mindview.net/Books/TIJ4)
 
+作者：[Bruce Eckel](http://www.mindviewinc.com/Index.php)
 
-本书来自网络，http://quanke.name 整理成电子书，支持PDF,ePub,Mobi格式，方便大家下载阅读。
+译者：
 
-阅读地址：https://java.quanke.name
++ [yyc](mailto:yycmail@263.net)
 
-下载地址：https://www.gitbook.com/book/quanke/think-in-java/
++ [spirit](mailto:nimbusyyf@sohu.com)
 
-github地址：https://github.com/quanke/think-in-java
+来源：[Thinking in Java 在线中文版](http://www.yq1012.com/ThinkingInJava/)
 
-编辑：http://quanke.name
+整理：
 
-第13章没有编辑，觉得没有意义，Java的GUI先在应用少，有时间在编辑好。。。
-
-编辑整理辛苦，还望大神们点一下star ，抚平我虚荣的心
++ [quanke](http://quanke.name)
