@@ -10,7 +10,7 @@ ThisIsAClassName
 thisIsMethodOrFieldName
 ```
 
-若在定义中出现了常数初始化字符，则大写static final基本类型标识符中的所有字母。这样便可标志出它们属于编译期的常数。
+若在定义中出现了常数初始化字符，则大写static final基本类型识别符中的所有字母。这样便可标志出它们属于编译期的常数。
 
 Java包（Package）属于一种特殊情况：它们全都是小写字母，即便中间的单词亦是如此。对于域名扩展名称，如com，org，net或者edu等，全部都应小写（这也是Java 1.1和Java 1.2的区别之一）。
 
