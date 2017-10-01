@@ -38,7 +38,7 @@ David Flanagan
 出版时间：1997
 简介：针对三种主要的Java ORB（Visbroker，Orbix，Joe），本书分别用大量代码实例进行了详尽的阐述。
 
-■《Design Patterns》
+■《设计模式》
 作者：Gamma，Helm，Johnson和Vlissides
 出版社：Addison-Wesley
 出版时间：1995
