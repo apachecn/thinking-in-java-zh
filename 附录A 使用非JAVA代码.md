@@ -420,7 +420,7 @@ A.3.4 编写回调函数
 另一个例子是API函数EnumWindows()，它能枚举目前系统内所有顶级窗口。EnumWindows()要求获取一个函数指针作为自己的参数，然后搜索由Windows内部维护的一个列表。对于列表内的每个窗口，它都会调用回调函数，将窗口引用作为一个参数传给回调。
 
 为了在Java里达到同样的目的，必须使用com.ms.dll包里的Callback类。我们从Callback里继承，并取消callback()。这个方法只能接近int参数，并会返回int或void。方法签名和具体的实现取决于使用这个回调的Windows API函数。
-现在，我们要进行的全部工作就是创建这个Callback衍生类的一个实例，并将其作为函数指针传递给API函数。随后，J/Direct会帮助我们自动完成剩余的工作。
+现在，我们要进行的全部工作就是创建这个Callback派生类的一个实例，并将其作为函数指针传递给API函数。随后，J/Direct会帮助我们自动完成剩余的工作。
 
 下面这个例子调用了Win32 API函数EnumWindows()；EnumWindowsProc类里的callback()方法会获取每个顶级窗口的引用，获取标题文字，并将其打印到控制台窗口。
 
