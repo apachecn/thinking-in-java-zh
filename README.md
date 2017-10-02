@@ -10,8 +10,14 @@
 
 + [spirit](mailto:nimbusyyf@sohu.com)
 
+修订：
+
++ [wizardforcel](https://github.com/wizardforcel)
+
 来源：[Thinking in Java 在线中文版](http://www.yq1012.com/ThinkingInJava/)
 
 整理：
 
 + [quanke](http://quanke.name)
+
++ [wizardforcel](https://github.com/wizardforcel)
