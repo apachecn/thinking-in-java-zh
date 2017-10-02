@@ -34,6 +34,7 @@ long time = System.currentTimeMillis() - start;
 ```
 
 利用`System.out.println()`，让一种不常用到的方法将累积时间打印到控制台窗口。由于一旦出错，编译器会将其忽略，所以可用一个“静态最终布尔值”（`Static final boolean`）打开或关闭计时，使代码能放心留在最终发行的程序里，这样任何时候都可以拿来应急。尽管还可以选用更复杂的评测手段，但若仅仅为了量度一个特定任务的执行时间，这无疑是最简便的方法。
+
 `System.currentTimeMillis()`返回的时间以千分之一秒（1毫秒）为单位。然而，有些系统的时间精度低于1毫秒（如Windows PC），所以需要重复`n`次，再将总时间除以`n`，获得准确的时间。
 
 D.2.2 JDK性能评测[2]
@@ -165,17 +166,21 @@ D.4.1 性能工具
 [1] 运行于Pentium Pro 200，Netscape 3.0，JDK 1.1.4的MicroBenchmark（参见下面的参考资源[5]）
 
 [2] Sun的Java文档页——JDK Java解释器主题：
+
 http://java.sun.com/products/JDK/tools/win32/java.html
 
 [3] Vladimir Bulatov的HyperProf
+
 http://www.physics.orst.edu/~bulatov/HyperProf
 
 [4] Greg White的ProfileViewer
+
 http://www.inetmi.com/~gwhi/ProfileViewer/ProfileViewer.html
 
 D.4.2 Web站点
 
 [5] 对于Java代码的优化主题，最出色的在线参考资源是Jonathan Hardwick的“Java Optimization”网站：
+
 http://www.cs.cmu.edu/~jch/java/optimization.html
 
 “Java优化工具”主页：
@@ -189,13 +194,17 @@ http://www.cs.cmu.edu/~jch/java/benchmarks.html
 D.4.3 文章
 
 [6] “Make Java fast:Optimize! How to get the greatest performanceout of your code through low-level optimizations in Java”（让Java更快：优化！如何通过在Java中的低级优化，使代码发挥最出色的性能）。作者：Doug Bell。网址：
+
 http://www.javaworld.com/javaworld/jw-04-1997/jw-04-optimize.html
+
 （含一个全面的性能评测程序片，有详尽注释）
 
 [7] “Java Optimization Resources”（Java优化资源）
+
 http://www.cs.cmu.edu/~jch/java/resources.html
 
 [8] “Optimizing Java for Speed”（优化Java，提高速度）：
+
 http://www.cs.cmu.edu/~jch/java/speed.html
 
 [9] “An Empirical Study of FORTRAN Programs”（FORTRAN程序实战解析）。作者：Donald Knuth。1971年出版。第1卷，p.105-33，“软件——实践和练习”。
