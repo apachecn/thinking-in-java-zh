@@ -4,6 +4,8 @@
 
 作者：[Bruce Eckel](http://www.mindviewinc.com/Index.php)
 
+原始中文版：[Thinking in Java 在线中文版](http://www.yq1012.com/ThinkingInJava/)
+
 译者：
 
 + [yyc](mailto:yycmail@263.net)
@@ -13,8 +15,6 @@
 修订：
 
 + [wizardforcel](https://github.com/wizardforcel)
-
-来源：[Thinking in Java 在线中文版](http://www.yq1012.com/ThinkingInJava/)
 
 整理：
 
