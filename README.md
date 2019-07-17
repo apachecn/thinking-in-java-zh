@@ -29,3 +29,7 @@
 + [EPUB格式](https://www.gitbook.com/download/epub/book/wizardforcel/thinking-in-java)
 + [MOBI格式](https://www.gitbook.com/download/mobi/book/wizardforcel/thinking-in-java)
 + [代码仓库](http://github.com/it-ebooks/thinking-in-java-zh)
+
+> 注
+> 
+> 我们没有翻译第五版（On Java 8）的计划，请访问 [LingCoder/OnJava8](https://github.com/LingCoder/OnJava8)。
